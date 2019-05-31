@@ -16,6 +16,7 @@ console.log("Bundling for " + define + "...");
 module.exports = {
   entry: resolve('src/app.fsproj'),
   outDir: resolve("out"),
+  babel: {},
   fable: {
     define: define
   }

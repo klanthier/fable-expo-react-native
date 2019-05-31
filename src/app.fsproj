@@ -3,8 +3,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="react-native.fs" />
     <Compile Include="styles.fs" />
-    <Compile Include="main.fs" />
     <Compile Include="entry.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
