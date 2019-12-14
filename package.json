@@ -8,15 +8,16 @@
     "watch": "fable-splitter -c splitter.config.js -w --define DEBUG"
   },
   "dependencies": {
-    "buffer": "5.2.1",
-    "expo": "^32.0.0",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "buffer": "~5.4.3",
+    "expo": "~36.0.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0",
-    "fable-compiler": "2.3.10",
-    "fable-splitter": "^2.1.10"
+    "babel-preset-expo": "^8.0.0",
+    "fable-compiler": "2.4.11",
+    "fable-splitter": "^2.1.11"
   },
   "private": true
 }
